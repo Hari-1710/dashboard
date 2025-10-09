@@ -1,0 +1,59 @@
+{
+ "charts": [
+  {
+   "chart_name": "Opportunity",
+   "label": "Opportunity"
+  },
+  {
+   "chart_name": "Sales Order Trends",
+   "label": "Sales Order Trends"
+  },
+  {
+   "chart_name": "Profit and Loss",
+   "label": "Profit and Loss"
+  },
+  {
+   "chart_name": "Cash Flow",
+   "label": "Cash Flow"
+  }
+ ],
+ "content": "[{\"id\":\"8wmPtm-jUZ\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Sales</b></span>\",\"col\":12}},{\"id\":\"H138sW7yKW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Sales\",\"col\":4}},{\"id\":\"emgOizEjrI\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Incoming Payment\",\"col\":4}},{\"id\":\"AM_MfoOuky\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Outgoing Payment\",\"col\":4}},{\"id\":\"IIQaEGo_48\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Opportunity\",\"col\":6}},{\"id\":\"o-yK4ynDpL\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":6}},{\"id\":\"aXpFRRlJbW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Finance</b></span>\",\"col\":12}},{\"id\":\"U_3A7Hrrpo\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Profit and Loss\",\"col\":6}},{\"id\":\"JBpexwscTh\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Cash Flow\",\"col\":6}}]",
+ "creation": "2025-10-09 12:45:00.578110",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "chart",
+ "idx": 0,
+ "indicator_color": "purple",
+ "is_hidden": 0,
+ "label": "Management Dashboard",
+ "links": [],
+ "modified": "2025-10-09 13:08:08.005161",
+ "modified_by": "Administrator",
+ "module": "Dashboard",
+ "name": "Management Dashboard",
+ "number_cards": [
+  {
+   "label": "Total Sales",
+   "number_card_name": "Total Sales"
+  },
+  {
+   "label": "Total Incoming Payment",
+   "number_card_name": "Total Incoming Payment"
+  },
+  {
+   "label": "Total Outgoing Payment",
+   "number_card_name": "Total Outgoing Payment"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "Management Dashboard"
+}

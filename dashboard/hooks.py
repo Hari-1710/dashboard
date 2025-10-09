@@ -242,3 +242,8 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Workspace", "filters": [["module", "=", "Dashboard"]]},
+    {"dt": "Dashboard Chart", "filters": [["module", "=", "Dashboard"]]},
+    {"dt": "Number Card", "filters": [["module", "=", "Dashboard"]]},
+]
