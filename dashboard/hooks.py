@@ -243,20 +243,18 @@ app_license = "mit"
 # }
 
 fixtures = [
-    # 1️⃣ Export the Management Dashboard Workspace
     {
         "doctype": "Workspace",
         "filters": [["name", "=", "Management Dashboard"]]
     },
-    # 2️⃣ Export all Number Cards used in the Dashboard module (or list specific names)
     {
         "doctype": "Number Card",
         "filters": [["module", "=", "Dashboard"]]
     },
-    # 3️⃣ Export all Dashboard Charts used in the Dashboard module (if any)
     {
         "doctype": "Dashboard Chart",
         "filters": [["module", "=", "Dashboard"]]
     }
 ]
+
 

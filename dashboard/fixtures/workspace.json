@@ -23,7 +23,7 @@
     "parenttype": "Workspace"
    }
   ],
-  "content": "[{\"id\":\"8wmPtm-jUZ\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Sales</b></span>\",\"col\":12}},{\"id\":\"6pyi1ja-Xo\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Weekly)\",\"col\":4}},{\"id\":\"H138sW7yKW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Monthly)\",\"col\":4}},{\"id\":\"4jH356VNpw\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Yearly)\",\"col\":4}},{\"id\":\"IIQaEGo_48\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Opportunity\",\"col\":6}},{\"id\":\"o-yK4ynDpL\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":6}},{\"id\":\"aXpFRRlJbW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Finance</b></span>\",\"col\":12}},{\"id\":\"U_3A7Hrrpo\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Profit and Loss\",\"col\":6}}]",
+  "content": "[{\"id\":\"8wmPtm-jUZ\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Sales</b></span>\",\"col\":12}},{\"id\":\"6pyi1ja-Xo\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Weekly)\",\"col\":4}},{\"id\":\"H138sW7yKW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Monthly)\",\"col\":4}},{\"id\":\"4jH356VNpw\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Yearly)\",\"col\":4}},{\"id\":\"m0tn1mr8_2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Weekly)\",\"col\":4}},{\"id\":\"5xKK6774kb\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Monthly)\",\"col\":4}},{\"id\":\"czS0NMi_Bq\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Yearly)\",\"col\":4}},{\"id\":\"IIQaEGo_48\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Opportunity\",\"col\":6}},{\"id\":\"o-yK4ynDpL\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":6}},{\"id\":\"aXpFRRlJbW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Finance</b></span>\",\"col\":12}},{\"id\":\"U_3A7Hrrpo\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Profit and Loss\",\"col\":6}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -34,10 +34,17 @@
   "is_hidden": 0,
   "label": "Management Dashboard",
   "links": [],
-  "modified": "2025-10-10 13:29:10.538646",
+  "modified": "2025-10-10 14:51:29.205684",
   "module": "Dashboard",
   "name": "Management Dashboard",
   "number_cards": [
+   {
+    "label": "Confirmed Sales Orders (Weekly)",
+    "number_card_name": "Confirmed Sales Orders (Weekly)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
    {
     "label": "Draft Sales Orders (Weekly)",
     "number_card_name": "Draft Sales Orders (Weekly)",
@@ -46,8 +53,22 @@
     "parenttype": "Workspace"
    },
    {
+    "label": "Confirmed Sales Orders (Monthly)",
+    "number_card_name": "Confirmed Sales Orders (Monthly)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
     "label": "Draft Sales Orders (Monthly)",
     "number_card_name": "Draft Sales Orders",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Confirmed Sales Orders (Yearly)",
+    "number_card_name": "Confirmed Sales Orders (Yearly)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
