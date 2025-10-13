@@ -1,7 +1,7 @@
 {
  "charts": [],
- "content": "[{\"id\":\"8wmPtm-jUZ\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Sales</b></span>\",\"col\":12}},{\"id\":\"6pyi1ja-Xo\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Weekly)\",\"col\":4}},{\"id\":\"H138sW7yKW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Monthly)\",\"col\":4}},{\"id\":\"4jH356VNpw\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Yearly)\",\"col\":4}},{\"id\":\"m0tn1mr8_2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Weekly)\",\"col\":4}},{\"id\":\"5xKK6774kb\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Monthly)\",\"col\":4}},{\"id\":\"czS0NMi_Bq\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Yearly)\",\"col\":4}}]",
- "creation": "2025-10-09 12:45:00.578110",
+ "content": "[{\"id\":\"8wmPtm-jUZ\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Sales</b></span>\",\"col\":12}},{\"id\":\"6pyi1ja-Xo\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Weekly)\",\"col\":4}},{\"id\":\"H138sW7yKW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Monthly)\",\"col\":4}},{\"id\":\"4jH356VNpw\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Yearly)\",\"col\":4}},{\"id\":\"m0tn1mr8_2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Weekly)\",\"col\":4}},{\"id\":\"5xKK6774kb\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Monthly)\",\"col\":4}},{\"id\":\"czS0NMi_Bq\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Yearly)\",\"col\":4}},{\"id\":\"qkigFlSAK0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (Weekly)\",\"col\":4}},{\"id\":\"giQJ1lx7HI\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (Monthly)\",\"col\":4}},{\"id\":\"vyvexpE7GF\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (Yearly)\",\"col\":4}}]",
+ "creation": "2025-10-13 08:28:48.416999",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Management Dashboard",
  "links": [],
- "modified": "2025-10-13 07:11:20.052512",
+ "modified": "2025-10-13 09:01:30.120562",
  "modified_by": "Administrator",
  "module": "Dashboard",
  "name": "Management Dashboard",
@@ -23,12 +23,24 @@
    "number_card_name": "Confirmed Sales Orders (Weekly)"
   },
   {
+   "label": "Sales Invoices (Weekly)",
+   "number_card_name": "Sales Invoices"
+  },
+  {
    "label": "Draft Sales Orders (Weekly)",
    "number_card_name": "Draft Sales Orders (Weekly)"
   },
   {
+   "label": "Sales Invoices (Monthly)",
+   "number_card_name": "Sales Invoices (Monthly)"
+  },
+  {
    "label": "Confirmed Sales Orders (Monthly)",
    "number_card_name": "Confirmed Sales Orders (Monthly)"
+  },
+  {
+   "label": "Sales Invoices (Yearly)",
+   "number_card_name": "Sales Invoices (Yearly)"
   },
   {
    "label": "Draft Sales Orders (Monthly)",
