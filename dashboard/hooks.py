@@ -251,10 +251,7 @@ fixtures = [
         "doctype": "Number Card",
         "filters": [["module", "=", "Dashboard"]]
     },
-    {
-        "doctype": "Dashboard Chart",
-        "filters": [["module", "=", "Dashboard"]]
-    }
+   
 ]
 
 
