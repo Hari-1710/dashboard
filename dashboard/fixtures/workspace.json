@@ -1,7 +1,7 @@
 [
  {
   "charts": [],
-  "content": "[{\"id\":\"8wmPtm-jUZ\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Sales</b></span>\",\"col\":12}},{\"id\":\"6pyi1ja-Xo\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Weekly)\",\"col\":4}},{\"id\":\"H138sW7yKW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Monthly)\",\"col\":4}},{\"id\":\"4jH356VNpw\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (Yearly)\",\"col\":4}},{\"id\":\"m0tn1mr8_2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Weekly)\",\"col\":4}},{\"id\":\"5xKK6774kb\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Monthly)\",\"col\":4}},{\"id\":\"czS0NMi_Bq\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Orders (Yearly)\",\"col\":4}},{\"id\":\"qkigFlSAK0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (Weekly)\",\"col\":4}},{\"id\":\"giQJ1lx7HI\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (Monthly)\",\"col\":4}},{\"id\":\"vyvexpE7GF\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (Yearly)\",\"col\":4}}]",
+  "content": "[{\"id\":\"8wmPtm-jUZ\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Sales orders in Draft</b></span>\",\"col\":12}},{\"id\":\"uXY0bomrdy\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (This Week)\",\"col\":4}},{\"id\":\"2MqdgeJ0Zj\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (This Month)\",\"col\":4}},{\"id\":\"bAkCXemvvF\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (This Quarter)\",\"col\":4}},{\"id\":\"l5Wfc4SZXQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Sales orders Confirmed</b></span>\",\"col\":12}},{\"id\":\"sbvkCcECY9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Order (This Week)\",\"col\":4}},{\"id\":\"cTY-_z_njJ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Order (This Month)\",\"col\":4}},{\"id\":\"8ujp2Cm1Z1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Order (This Quarter)\",\"col\":4}},{\"id\":\"GjqQNSQRMu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Sales Invoices Created</b></span>\",\"col\":12}},{\"id\":\"efpg6bNb1l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (This Week)\",\"col\":4}},{\"id\":\"NQ185esNUX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (This Month)\",\"col\":4}},{\"id\":\"vmYWTHpETK\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (This Quarter)\",\"col\":4}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -12,69 +12,69 @@
   "is_hidden": 0,
   "label": "Management Dashboard",
   "links": [],
-  "modified": "2025-10-13 09:01:30.120562",
+  "modified": "2025-10-20 15:35:12.191935",
   "module": "Dashboard",
   "name": "Management Dashboard",
   "number_cards": [
    {
-    "label": "Confirmed Sales Orders (Weekly)",
-    "number_card_name": "Confirmed Sales Orders (Weekly)",
+    "label": "Draft Sales Orders (This Week)",
+    "number_card_name": "Draft Sales Orders (Week)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
    },
    {
-    "label": "Sales Invoices (Weekly)",
-    "number_card_name": "Sales Invoices",
+    "label": "Sales Invoices (This Week)",
+    "number_card_name": "Sales Invoices (This Week)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
    },
    {
-    "label": "Draft Sales Orders (Weekly)",
-    "number_card_name": "Draft Sales Orders (Weekly)",
+    "label": "Draft Sales Orders (This Month)",
+    "number_card_name": "Draft Sales Orders (month)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
    },
    {
-    "label": "Sales Invoices (Monthly)",
-    "number_card_name": "Sales Invoices (Monthly)",
+    "label": "Sales Invoices (This Month)",
+    "number_card_name": "Sales Invoices (This Month)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
    },
    {
-    "label": "Confirmed Sales Orders (Monthly)",
-    "number_card_name": "Confirmed Sales Orders (Monthly)",
+    "label": "Draft Sales Orders (This Quarter)",
+    "number_card_name": "Draft Sales Orders (quarter)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
    },
    {
-    "label": "Sales Invoices (Yearly)",
-    "number_card_name": "Sales Invoices (Yearly)",
+    "label": "Sales Invoices (This Quarter)",
+    "number_card_name": "Sales Invoices (This Quarter)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
    },
    {
-    "label": "Draft Sales Orders (Monthly)",
-    "number_card_name": "Draft Sales Orders",
+    "label": "Confirmed Sales Order (This Week)",
+    "number_card_name": "Confirmed Sales Order (This Week)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
    },
    {
-    "label": "Confirmed Sales Orders (Yearly)",
-    "number_card_name": "Confirmed Sales Orders (Yearly)",
+    "label": "Confirmed Sales Order (This Month)",
+    "number_card_name": "Confirmed Sales Order (This Month)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
    },
    {
-    "label": "Draft Sales Orders (Yearly)",
-    "number_card_name": "Draft Sales Orders (Yearly)",
+    "label": "Confirmed Sales Order (This Quarter)",
+    "number_card_name": "Confirmed Sales Order (This Quarter)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
