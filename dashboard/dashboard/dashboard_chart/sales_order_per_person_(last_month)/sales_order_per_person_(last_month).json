@@ -1,0 +1,39 @@
+{
+ "chart_name": "Sales Order per person (Last month)",
+ "chart_type": "Report",
+ "creation": "2025-10-28 16:07:09.694914",
+ "currency": "AED",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2025-10-28 16:07:09.694914",
+ "modified_by": "Administrator",
+ "module": "Dashboard",
+ "name": "Sales Order per person (Last month)",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Sales order per Sales person (last month)",
+ "roles": [],
+ "show_values_over_chart": 0,
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "sales_person",
+ "y_axis": [
+  {
+   "color": "#761ACB",
+   "y_field": "no._of_orders"
+  },
+  {
+   "color": "#39E4A5",
+   "y_field": "total_value"
+  }
+ ]
+}

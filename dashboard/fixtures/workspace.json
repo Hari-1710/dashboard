@@ -1,7 +1,106 @@
 [
  {
-  "charts": [],
-  "content": "[{\"id\":\"8wmPtm-jUZ\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Sales orders in Draft</b></span>\",\"col\":12}},{\"id\":\"uXY0bomrdy\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (This Week)\",\"col\":4}},{\"id\":\"2MqdgeJ0Zj\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (This Month)\",\"col\":4}},{\"id\":\"bAkCXemvvF\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Sales Orders (This Quarter)\",\"col\":4}},{\"id\":\"l5Wfc4SZXQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Sales orders Confirmed</b></span>\",\"col\":12}},{\"id\":\"sbvkCcECY9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Order (This Week)\",\"col\":4}},{\"id\":\"cTY-_z_njJ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Order (This Month)\",\"col\":4}},{\"id\":\"8ujp2Cm1Z1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed Sales Order (This Quarter)\",\"col\":4}},{\"id\":\"GjqQNSQRMu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Sales Invoices Created</b></span>\",\"col\":12}},{\"id\":\"efpg6bNb1l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (This Week)\",\"col\":4}},{\"id\":\"NQ185esNUX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (This Month)\",\"col\":4}},{\"id\":\"vmYWTHpETK\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sales Invoices (This Quarter)\",\"col\":4}}]",
+  "charts": [
+   {
+    "chart_name": "Estimation Created By (Today)",
+    "label": "Estimation Submitted By (Today)",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "No of Leads per salesperson 2",
+    "label": "No of Leads per Salesperson ",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Sales Order per person (Last month)",
+    "label": "SO in Draft per Sales person (Last month)",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Sales Order Confirmed per Sales person (Last Week)",
+    "label": "SO Confirmed per Sales person (Last Week)",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Drawing Submitted By",
+    "label": "Drawing Submitted By",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Active quotation per sales person 2",
+    "label": "Active quotation per sales person (This year)",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Sales Order Confirmed per Sales person (Last month)",
+    "label": "SO Confirmed per Sales person (Last month)",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Quotation submitted last week",
+    "label": "Quotation submitted (Last week)",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Sales Invoice per Sales Person(Last week)",
+    "label": "SI per Sales Person(Last week)",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Quotation submitted last month",
+    "label": "Quotation submitted (Last month)",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Sales Invoice per Sales Person(Last Month)",
+    "label": "SI per Sales Person(Last Month)",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Sales Order per person (Last week)",
+    "label": "SO In Draft per Sales person (Last week)",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Expected Closure Date Quotation (This month)",
+    "label": "ECD Quotation (This month)",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Top 10 Customer by Quotation and Value",
+    "label": "Top 10 Customer by Quotation and Value",
+    "parent": "Management Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   }
+  ],
+  "content": "[{\"id\":\"8wmPtm-jUZ\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Sales orders in Draft</b></span>\",\"col\":12}},{\"id\":\"uXY0bomrdy\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft SO (This Week)\",\"col\":3}},{\"id\":\"2MqdgeJ0Zj\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft SO (This Month)\",\"col\":3}},{\"id\":\"bAkCXemvvF\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft SO (This Quarter)\",\"col\":3}},{\"id\":\"vIROc1nuMN\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft SO (Yearly)\",\"col\":3}},{\"id\":\"l5Wfc4SZXQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Sales orders Confirmed</b></span>\",\"col\":12}},{\"id\":\"sbvkCcECY9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed SO (This Week)\",\"col\":3}},{\"id\":\"cTY-_z_njJ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed SO (This Month)\",\"col\":3}},{\"id\":\"8ujp2Cm1Z1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed SO (This Quarter)\",\"col\":3}},{\"id\":\"vUMSdRr9WE\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Confirmed SO (Yearly)\",\"col\":3}},{\"id\":\"GjqQNSQRMu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Sales Invoices Created</b></span>\",\"col\":12}},{\"id\":\"efpg6bNb1l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"SI (This Week)\",\"col\":3}},{\"id\":\"NQ185esNUX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"SI (This Month)\",\"col\":3}},{\"id\":\"vmYWTHpETK\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"SI (This Quarter)\",\"col\":3}},{\"id\":\"gnlBTpUmc6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"SI (This Year)\",\"col\":3}},{\"id\":\"bBuZoSimtD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quotation</b></span>\",\"col\":12}},{\"id\":\"zy9OxVGD85\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Quotation In Draft (This Week)\",\"col\":3}},{\"id\":\"Rr0tVAsIMP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Quotation In Draft (This Month)\",\"col\":3}},{\"id\":\"I-MENAzOuJ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Quotation In Draft (This Quarter)\",\"col\":3}},{\"id\":\"VUB5R2Z_oI\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Quotation In Draft (This Year)\",\"col\":3}},{\"id\":\"XqikKRguBa\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Quotation Submitted (Today )\",\"col\":4}},{\"id\":\"1kjxtld9bC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Quotation Submitted ( This Week )\",\"col\":4}},{\"id\":\"JUhls0pepi\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Quotation Submitted (This Month )\",\"col\":4}},{\"id\":\"fnJCwa2F74\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Quotation % past 7 days\",\"col\":4}},{\"id\":\"cdtYXO3Siw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Estimation</b></span>\",\"col\":12}},{\"id\":\"yjRzQOrrYe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No of Estimation (Opened Today)\",\"col\":4}},{\"id\":\"WDXzIGt_XB\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No of Estimation (This Week)\",\"col\":4}},{\"id\":\"wb-17zxjUi\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No of Estimation (This Month)\",\"col\":4}},{\"id\":\"qysAkFJUMT\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No of Estimation (In Draft)\",\"col\":4}},{\"id\":\"R1XdEFc6s_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No of Estimation (Past 5 Days)\",\"col\":4}},{\"id\":\"gg2OuyX00c\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Estimation % (TAT)\",\"col\":4}},{\"id\":\"018DmqFzLz\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Estimation Cancelled\",\"col\":4}},{\"id\":\"Y57CZr6Z6C\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Estimation Submitted By (Today)\",\"col\":12}},{\"id\":\"ti2q5hdx5P\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Drawing</b></span>\",\"col\":12}},{\"id\":\"k3fTsc-TtM\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No of Drawing (Opened Today)\",\"col\":4}},{\"id\":\"xpY44bqz0m\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No of Drawing (This Week)\",\"col\":4}},{\"id\":\"FjydCah2GS\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No of Drawing (This Month)\",\"col\":4}},{\"id\":\"zrs1ZllWMe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No of Drawing (In Draft)\",\"col\":4}},{\"id\":\"dj2lGxni1j\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Drawing Past 5 Days\",\"col\":4}},{\"id\":\"V-hC6NByw7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Drawing % (TAT)\",\"col\":4}},{\"id\":\"MxRF_XF7jk\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Drawing Submitted By\",\"col\":12}},{\"id\":\"yqGb--0mER\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Sales</b></span>\",\"col\":12}},{\"id\":\"KofuVgMi-Q\",\"type\":\"chart\",\"data\":{\"chart_name\":\"No of Leads per Salesperson \",\"col\":6}},{\"id\":\"glCY_uGS7J\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Active quotation per sales person (This year)\",\"col\":6}},{\"id\":\"gU2fgUeBcu\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Quotation submitted (Last week)\",\"col\":6}},{\"id\":\"8EZ-WG2EM1\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Quotation submitted (Last month)\",\"col\":6}},{\"id\":\"s02v7sBdcf\",\"type\":\"chart\",\"data\":{\"chart_name\":\"SO In Draft per Sales person (Last week)\",\"col\":6}},{\"id\":\"5st44mMYg2\",\"type\":\"chart\",\"data\":{\"chart_name\":\"SO in Draft per Sales person (Last month)\",\"col\":6}},{\"id\":\"BT4LZGEIGI\",\"type\":\"chart\",\"data\":{\"chart_name\":\"SO Confirmed per Sales person (Last Week)\",\"col\":6}},{\"id\":\"YG_c18XT0x\",\"type\":\"chart\",\"data\":{\"chart_name\":\"SO Confirmed per Sales person (Last month)\",\"col\":6}},{\"id\":\"cOy_Uy03Es\",\"type\":\"chart\",\"data\":{\"chart_name\":\"SI per Sales Person(Last week)\",\"col\":6}},{\"id\":\"Y-jDFf5PMz\",\"type\":\"chart\",\"data\":{\"chart_name\":\"SI per Sales Person(Last Month)\",\"col\":6}},{\"id\":\"RTJt45tTRs\",\"type\":\"chart\",\"data\":{\"chart_name\":\"ECD Quotation (This month)\",\"col\":6}},{\"id\":\"GaHKQzO6cv\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Top 10 Customer by Quotation and Value\",\"col\":6}},{\"id\":\"U675JSxSlN\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"el7fUSNuKh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Top 20 Quotations per value\",\"col\":3}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -12,69 +111,237 @@
   "is_hidden": 0,
   "label": "Management Dashboard",
   "links": [],
-  "modified": "2025-10-20 15:35:12.191935",
+  "modified": "2025-10-28 16:11:31.770615",
   "module": "Dashboard",
   "name": "Management Dashboard",
   "number_cards": [
    {
-    "label": "Draft Sales Orders (This Week)",
+    "label": "Quotation Submitted (Today )",
+    "number_card_name": "Quotation Submitted (Today )",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Quotation % past 7 days",
+    "number_card_name": "Quotation % past 7 days",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "No of Drawing (Opened Today)",
+    "number_card_name": "No of Drawing (Opened Today)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Drawing % (TAT)",
+    "number_card_name": "Drawing % (TAT)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Draft SO (This Week)",
     "number_card_name": "Draft Sales Orders (Week)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
    },
    {
-    "label": "Sales Invoices (This Week)",
-    "number_card_name": "Sales Invoices (This Week)",
-    "parent": "Management Dashboard",
-    "parentfield": "number_cards",
-    "parenttype": "Workspace"
-   },
-   {
-    "label": "Draft Sales Orders (This Month)",
-    "number_card_name": "Draft Sales Orders (month)",
-    "parent": "Management Dashboard",
-    "parentfield": "number_cards",
-    "parenttype": "Workspace"
-   },
-   {
-    "label": "Sales Invoices (This Month)",
-    "number_card_name": "Sales Invoices (This Month)",
-    "parent": "Management Dashboard",
-    "parentfield": "number_cards",
-    "parenttype": "Workspace"
-   },
-   {
-    "label": "Draft Sales Orders (This Quarter)",
-    "number_card_name": "Draft Sales Orders (quarter)",
-    "parent": "Management Dashboard",
-    "parentfield": "number_cards",
-    "parenttype": "Workspace"
-   },
-   {
-    "label": "Sales Invoices (This Quarter)",
-    "number_card_name": "Sales Invoices (This Quarter)",
-    "parent": "Management Dashboard",
-    "parentfield": "number_cards",
-    "parenttype": "Workspace"
-   },
-   {
-    "label": "Confirmed Sales Order (This Week)",
+    "label": "Confirmed SO (This Week)",
     "number_card_name": "Confirmed Sales Order (This Week)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
    },
    {
-    "label": "Confirmed Sales Order (This Month)",
+    "label": "SI (This Week)",
+    "number_card_name": "Sales Invoices (This Week)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "No of Estimation (In Draft)",
+    "number_card_name": "No of Estimation (In Draft)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Quotation In Draft (This Week)",
+    "number_card_name": "Quotation In Draft (This Week)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "No of Estimation (Opened Today)",
+    "number_card_name": "No of Estimation (Opened Today)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Quotation Submitted ( This Week )",
+    "number_card_name": "Quotation Submitted ( This Week )",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "No of Drawing (This Week)",
+    "number_card_name": "No of Drawing (This Week)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Draft SO (This Month)",
+    "number_card_name": "Draft Sales Orders (month)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Confirmed SO (This Month)",
     "number_card_name": "Confirmed Sales Order (This Month)",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
    },
    {
-    "label": "Confirmed Sales Order (This Quarter)",
+    "label": "SI (This Month)",
+    "number_card_name": "Sales Invoices (This Month)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "No of Estimation (Past 5 Days)",
+    "number_card_name": "No of Estimation (Past 5 Days)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Quotation In Draft (This Month)",
+    "number_card_name": "Quotation In Draft (This Month)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "No of Estimation (This Week)",
+    "number_card_name": "No of Estimation (Opened This Week)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Quotation Submitted (This Month )",
+    "number_card_name": "Quotation Submitted (This Month )",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "No of Drawing (This Month)",
+    "number_card_name": "No of Drawing (This Month)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Draft SO (This Quarter)",
+    "number_card_name": "Draft Sales Orders (quarter)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Confirmed SO (This Quarter)",
     "number_card_name": "Confirmed Sales Order (This Quarter)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "SI (This Quarter)",
+    "number_card_name": "Sales Invoices (This Quarter)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Estimation % (TAT)",
+    "number_card_name": "Estimation % (TAT)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Quotation In Draft (This Quarter)",
+    "number_card_name": "Quotation In Draft (This Quarter)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "No of Estimation (This Month)",
+    "number_card_name": "No of Estimation (Opened This Month)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "No of Drawing (In Draft)",
+    "number_card_name": "No of Drawing (In Draft)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Draft SO (Yearly)",
+    "number_card_name": "Draft Sales Orders (Yearly)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Confirmed SO (Yearly)",
+    "number_card_name": "Confirmed Sales Orders (Yearly)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "SI (This Year)",
+    "number_card_name": "Sales Invoices (This Year)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Estimation Cancelled",
+    "number_card_name": "Estimation Cancelled",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Quotation In Draft (This Year)",
+    "number_card_name": "Quotation In Draft (This Year)",
+    "parent": "Management Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Drawing Past 5 Days",
+    "number_card_name": "Drawing Past 5 Days",
     "parent": "Management Dashboard",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
@@ -86,7 +353,25 @@
   "restrict_to_domain": null,
   "roles": [],
   "sequence_id": 1.0,
-  "shortcuts": [],
+  "shortcuts": [
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Top 20 Quotations per value",
+    "link_to": "Top 20 quotations per value",
+    "parent": "Management Dashboard",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": "Quotation",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "Report",
+    "url": null
+   }
+  ],
   "title": "Management Dashboard"
  }
 ]
