@@ -247,10 +247,10 @@ fixtures = [
         "doctype": "Workspace",
         "filters": [["name", "=", "Management Dashboard"]]
     },
-    # {
-    #     "doctype": "Number Card",
-    #     "filters": [["module", "=", "Dashboard"], ["is_standard", "=", 0]]
-    # },
+    {
+        "doctype": "Number Card",
+        # "filters": [["module", "=", "Dashboard"], ["is_standard", "=", 0]]
+    },
     {
         "doctype": "Dashboard Chart",
         "filters": [["module", "=", "Dashboard"], ["is_standard", "=", 0]]
